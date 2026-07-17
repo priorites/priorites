@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sqlite3/common.dart' as sqlite;
+import 'package:sqlite3/common.dart' as sqlite hide Row;
 import 'package:sqlite3/wasm.dart' hide Row;
 
 void main() {
