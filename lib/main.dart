@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sqlite3/common.dart';
+import 'package:sqlite3/common.dart' as sqlite hide Row;
 import 'package:sqlite3/wasm.dart';
 
 void main() {
@@ -38,7 +38,7 @@ class SavedEntry {
 class LocalDatabase {
   LocalDatabase._(this._db);
 
-  final CommonDatabase _db;
+  final sqlite.CommonDatabase _db;
 
   static Future<LocalDatabase> open() async {
     final sqlite = await WasmSqlite3.loadFromUrlString('sqlite3.wasm');
