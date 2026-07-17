@@ -1,0 +1,12 @@
+{
+  "name": "Domain SQLite Test",
+  "short_name": "SQLite Test",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#2563eb",
+  "description": "A small Flutter web app for testing browser SQLite persistence.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": []
+}
